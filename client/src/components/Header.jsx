@@ -24,7 +24,7 @@ const Header = ({ title }) => {
         <span className="text-xl dm-mono-medium">{title}</span>
       </p>
       <div className="flex justify-end w-1/3">
-        <Link to="/" className="text-xl dm-mono-medium">
+        <Link to="/portfolio-2" className="text-xl dm-mono-medium">
           Back (Ctrl + X)
         </Link>
       </div>

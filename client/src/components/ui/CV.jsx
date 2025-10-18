@@ -13,7 +13,7 @@ const CV = () => {
           </a>
         </li>
         <li className="text-[#D2C1B6] text-xl dm-mono-medium">
-          <Link to="/cv">CV</Link>
+          <Link to="/portfolio-2/cv">CV</Link>
         </li>
       </ul>
     </div>

@@ -11,24 +11,14 @@ import CV from "./pages/CV";
 function App() {
   const [count, setCount] = useState(0);
 
-  /*
-  
-  bg- 19183B
-  header- 234C6A
-  strong- D2C1B6
-  text- E7F2EF
-  header2- A1C2BD
-
-  */
-
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects/stajlog" element={<Project1 />} />
-          <Route path="/projects/buglist" element={<Project2 />} />
-          <Route path="/cv" element={<CV />} />
+          <Route path="/portfolio-2" element={<Home />} />
+          <Route path="/portfolio-2/projects/stajlog" element={<Project1 />} />
+          <Route path="/portfolio-2/projects/buglist" element={<Project2 />} />
+          <Route path="/portfolio-2/cv" element={<CV />} />
         </Routes>
       </BrowserRouter>
     </>
