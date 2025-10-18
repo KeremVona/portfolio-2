@@ -7,7 +7,7 @@ const Header = ({ title }) => {
   useEffect(() => {
     const callback = (KeyboardEvent) => {
       if ((event.metaKey || event.ctrlKey) && event.code === "KeyX") {
-        navigate("/");
+        navigate("/portfolio-2");
       }
     };
     document.addEventListener("keydown", callback);
