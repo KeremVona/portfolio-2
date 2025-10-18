@@ -1,0 +1,22 @@
+[
+  {
+    "title": "## Overview",
+    "description": "StajLog is a full-stack website designed to help students efficiently record, manage, and generate professional internship reports. The system allows users to log daily internship activities, improve them with AI, and export reports in multiple formats."
+  },
+  {
+    "title": "## Authentication & User Management",
+    "description": "Each user has their own secure workspace protected by JWT-based authentication. All user data, including internship logs and uploaded files, are stored in a PostgreSQL database. The backend handles user registration, login, and authorization using Node and Express."
+  },
+  {
+    "title": "## Log Management",
+    "description": "Users can make daily internship logs through an intuitive and responsive React + Tailwind interface. Each log entry includes the day number, contents, and an optional title."
+  },
+  {
+    "title": "## AI-Powered Log Improvement",
+    "description": "To improve the professionalism and structure of reports, the platform integrates with an AI API. When a user completes a log, they can click “Improve with AI” to rewrite the entry into a formal and polished internship report format, currently available in Turkish."
+  },
+  {
+    "title": "## Templates and Document Generation",
+    "description": "Users can choose to use the website's default format or a school's format (currently supporting 1) with placeholders. The system fills these templates with AI-improved text to produce a document. Users can export their internship reports as PDF (default format) or DOCX."
+  }
+]
