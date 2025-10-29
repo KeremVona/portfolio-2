@@ -7,7 +7,7 @@ const Project2 = () => {
   return (
     <div className="mt-4">
       <Header title={"BugList - Bug tracker website"} />
-      <div className="max-w-4xl mt-4 ml-4">
+      <div className="max-w-4xl xl:max-w-3xl mt-4 ml-4">
         <p className="text-[#E7F2EF] text-3xl dm-mono-medium">
           # BugList - Bug tracker website
         </p>
