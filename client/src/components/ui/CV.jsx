@@ -6,7 +6,8 @@ const CV = () => {
       <ul className="list-disc marker:text-white ml-8">
         <li className="text-[#D2C1B6] text-xl dm-mono-medium">
           <a
-            href="github.com/KeremVona"
+            href="https://github.com/KeremVona"
+            target="_blank"
             className="hover:text-white transition duration-100"
           >
             GitHub

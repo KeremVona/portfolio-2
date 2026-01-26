@@ -1,8 +1,6 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router";
+
 import Home from "./pages/Home";
 import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
@@ -10,8 +8,6 @@ import CV from "./pages/CV";
 import Home2 from "./pages/Home2";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <BrowserRouter>

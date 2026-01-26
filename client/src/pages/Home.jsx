@@ -4,6 +4,7 @@ import About from "../components/ui/About";
 import Skills from "../components/ui/Skills";
 import Projects from "../components/ui/Projects";
 import Contact from "../components/ui/Contact";
+import SideQuests from "../components/ui/SideQuests";
 
 const Home = () => {
   return (
@@ -17,6 +18,9 @@ const Home = () => {
 
       <Header text={"projects"} />
       <Projects />
+
+      <Header text={"side quests"} />
+      <SideQuests />
 
       <Header text={"contact"} />
       <Contact />
