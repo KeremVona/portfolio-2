@@ -13,14 +13,17 @@ const Home = () => {
       <CV />
       <About />
 
-      <Header text={"skills"} />
-      <Skills />
+      <Header text={"Experience"} />
+      <Projects />
 
       <Header text={"projects"} />
       <Projects />
 
       <Header text={"side quests"} />
       <SideQuests />
+
+      <Header text={"skills"} />
+      <Skills />
 
       <Header text={"contact"} />
       <Contact />
