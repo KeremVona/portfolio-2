@@ -5,6 +5,7 @@ import Skills from "../components/ui/Skills";
 import Projects from "../components/ui/Projects";
 import Contact from "../components/ui/Contact";
 import SideQuests from "../components/ui/SideQuests";
+import Experience from "../components/ui/Experience";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <About />
 
       <Header text={"Experience"} />
-      <Projects />
+      <Experience />
 
       <Header text={"projects"} />
       <Projects />

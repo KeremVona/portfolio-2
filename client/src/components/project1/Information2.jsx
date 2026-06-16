@@ -1,5 +1,3 @@
-import React from "react";
-
 const Information2 = () => {
   return (
     <div>

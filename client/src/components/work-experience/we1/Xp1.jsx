@@ -1,3 +1,8 @@
+import Header from "../../Header";
+import we1 from "./we1.json";
+import Information from "../../project/Information";
+import Information2 from "../../project1/Information2";
+
 const Xp1 = () => {
   return (
     <div className="mt-4">
@@ -7,7 +12,7 @@ const Xp1 = () => {
           # Software Engineering Internship
         </p>
         <p className="text-[#E7F2EF] text-xl dm-mono-medium">
-          [GitHub]
+          [OBSS]
           <a
             href="https://github.com/KeremVona/StajLog"
             target="_blank"
@@ -16,26 +21,11 @@ const Xp1 = () => {
             (https://github.com/KeremVona/StajLog)
           </a>
         </p>
-        <Information
-          title={project1[0].title}
-          description={project1[0].description}
-        />
-        <Information
-          title={project1[1].title}
-          description={project1[1].description}
-        />
-        <Information
-          title={project1[2].title}
-          description={project1[2].description}
-        />
-        <Information
-          title={project1[3].title}
-          description={project1[3].description}
-        />
-        <Information
-          title={project1[4].title}
-          description={project1[4].description}
-        />
+        <Information title={we1[0].title} description={we1[0].description} />
+        <Information title={we1[1].title} description={we1[1].description} />
+        <Information title={we1[2].title} description={we1[2].description} />
+        <Information title={we1[3].title} description={we1[3].description} />
+        <Information title={we1[4].title} description={we1[4].description} />
         <Information2 />
       </div>
     </div>

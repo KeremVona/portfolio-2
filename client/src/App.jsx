@@ -6,6 +6,8 @@ import Project1 from "./pages/Project1";
 import Project2 from "./pages/Project2";
 import CV from "./pages/CV";
 import Home2 from "./pages/Home2";
+import Xp1 from "./components/work-experience/we1/Xp1";
+import Xp2 from "./components/work-experience/Xp2";
 
 function App() {
   return (
@@ -14,8 +16,13 @@ function App() {
         <Routes>
           <Route path="/portfolio-2" element={<Home />} />
           <Route path="/portfolio-2-2" element={<Home2 />} />
+
+          <Route path="/portfolio-2/experience/1" element={<Xp1 />} />
+          <Route path="/portfolio-2/experience/2" element={<Xp2 />} />
+
           <Route path="/portfolio-2/projects/stajlog" element={<Project1 />} />
           <Route path="/portfolio-2/projects/buglist" element={<Project2 />} />
+
           <Route path="/portfolio-2/cv" element={<CV />} />
         </Routes>
       </BrowserRouter>
